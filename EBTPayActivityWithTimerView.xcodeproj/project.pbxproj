@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D822D341D348E35001077C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D822D331D348E35001077C4 /* main.m */; };
+		7D822D371D348E35001077C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D822D361D348E35001077C4 /* AppDelegate.m */; };
+		7D822D3A1D348E35001077C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D822D391D348E35001077C4 /* ViewController.m */; };
+		7D822D3D1D348E35001077C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D822D3B1D348E35001077C4 /* Main.storyboard */; };
+		7D822D3F1D348E35001077C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D822D3E1D348E35001077C4 /* Assets.xcassets */; };
+		7D822D421D348E35001077C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D822D401D348E35001077C4 /* LaunchScreen.storyboard */; };
+		7D822D4D1D348E35001077C4 /* EBTPayActivityWithTimerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D822D4C1D348E35001077C4 /* EBTPayActivityWithTimerViewTests.m */; };
+		7D822D581D348E35001077C4 /* EBTPayActivityWithTimerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D822D571D348E35001077C4 /* EBTPayActivityWithTimerViewUITests.m */; };
+		7D822D681D348F69001077C4 /* EBTPayActivityAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D822D671D348F69001077C4 /* EBTPayActivityAlertView.m */; };
+		7D822D6A1D348F78001077C4 /* EBTPayActivityAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D822D691D348F78001077C4 /* EBTPayActivityAlertView.xib */; };
+		7D822D6D1D349041001077C4 /* EBTPayActivityWithTimerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D822D6C1D349041001077C4 /* EBTPayActivityWithTimerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D822D491D348E35001077C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D822D271D348E35001077C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D822D2E1D348E35001077C4;
+			remoteInfo = EBTPayActivityWithTimerView;
+		};
+		7D822D541D348E35001077C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D822D271D348E35001077C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D822D2E1D348E35001077C4;
+			remoteInfo = EBTPayActivityWithTimerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D822D2F1D348E35001077C4 /* EBTPayActivityWithTimerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EBTPayActivityWithTimerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D822D331D348E35001077C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D822D351D348E35001077C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D822D361D348E35001077C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D822D381D348E35001077C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7D822D391D348E35001077C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7D822D3C1D348E35001077C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D822D3E1D348E35001077C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D822D411D348E35001077C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D822D431D348E35001077C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D822D481D348E35001077C4 /* EBTPayActivityWithTimerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EBTPayActivityWithTimerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D822D4C1D348E35001077C4 /* EBTPayActivityWithTimerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBTPayActivityWithTimerViewTests.m; sourceTree = "<group>"; };
+		7D822D4E1D348E35001077C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D822D531D348E35001077C4 /* EBTPayActivityWithTimerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EBTPayActivityWithTimerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D822D571D348E35001077C4 /* EBTPayActivityWithTimerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBTPayActivityWithTimerViewUITests.m; sourceTree = "<group>"; };
+		7D822D591D348E35001077C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D822D661D348F69001077C4 /* EBTPayActivityAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBTPayActivityAlertView.h; sourceTree = "<group>"; };
+		7D822D671D348F69001077C4 /* EBTPayActivityAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBTPayActivityAlertView.m; sourceTree = "<group>"; };
+		7D822D691D348F78001077C4 /* EBTPayActivityAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EBTPayActivityAlertView.xib; sourceTree = "<group>"; };
+		7D822D6B1D349041001077C4 /* EBTPayActivityWithTimerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBTPayActivityWithTimerView.h; sourceTree = "<group>"; };
+		7D822D6C1D349041001077C4 /* EBTPayActivityWithTimerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBTPayActivityWithTimerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D822D2C1D348E35001077C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D822D451D348E35001077C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D822D501D348E35001077C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D822D261D348E35001077C4 = {
+			isa = PBXGroup;
+			children = (
+				7D822D311D348E35001077C4 /* EBTPayActivityWithTimerView */,
+				7D822D4B1D348E35001077C4 /* EBTPayActivityWithTimerViewTests */,
+				7D822D561D348E35001077C4 /* EBTPayActivityWithTimerViewUITests */,
+				7D822D301D348E35001077C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D822D301D348E35001077C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D822D2F1D348E35001077C4 /* EBTPayActivityWithTimerView.app */,
+				7D822D481D348E35001077C4 /* EBTPayActivityWithTimerViewTests.xctest */,
+				7D822D531D348E35001077C4 /* EBTPayActivityWithTimerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D822D311D348E35001077C4 /* EBTPayActivityWithTimerView */ = {
+			isa = PBXGroup;
+			children = (
+				7D822D651D348F3C001077C4 /* EBTPayActivityView */,
+				7D822D351D348E35001077C4 /* AppDelegate.h */,
+				7D822D361D348E35001077C4 /* AppDelegate.m */,
+				7D822D381D348E35001077C4 /* ViewController.h */,
+				7D822D391D348E35001077C4 /* ViewController.m */,
+				7D822D3B1D348E35001077C4 /* Main.storyboard */,
+				7D822D3E1D348E35001077C4 /* Assets.xcassets */,
+				7D822D401D348E35001077C4 /* LaunchScreen.storyboard */,
+				7D822D431D348E35001077C4 /* Info.plist */,
+				7D822D321D348E35001077C4 /* Supporting Files */,
+			);
+			path = EBTPayActivityWithTimerView;
+			sourceTree = "<group>";
+		};
+		7D822D321D348E35001077C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D822D331D348E35001077C4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D822D4B1D348E35001077C4 /* EBTPayActivityWithTimerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D822D4C1D348E35001077C4 /* EBTPayActivityWithTimerViewTests.m */,
+				7D822D4E1D348E35001077C4 /* Info.plist */,
+			);
+			path = EBTPayActivityWithTimerViewTests;
+			sourceTree = "<group>";
+		};
+		7D822D561D348E35001077C4 /* EBTPayActivityWithTimerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D822D571D348E35001077C4 /* EBTPayActivityWithTimerViewUITests.m */,
+				7D822D591D348E35001077C4 /* Info.plist */,
+			);
+			path = EBTPayActivityWithTimerViewUITests;
+			sourceTree = "<group>";
+		};
+		7D822D651D348F3C001077C4 /* EBTPayActivityView */ = {
+			isa = PBXGroup;
+			children = (
+				7D822D661D348F69001077C4 /* EBTPayActivityAlertView.h */,
+				7D822D671D348F69001077C4 /* EBTPayActivityAlertView.m */,
+				7D822D691D348F78001077C4 /* EBTPayActivityAlertView.xib */,
+				7D822D6B1D349041001077C4 /* EBTPayActivityWithTimerView.h */,
+				7D822D6C1D349041001077C4 /* EBTPayActivityWithTimerView.m */,
+			);
+			path = EBTPayActivityView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D822D2E1D348E35001077C4 /* EBTPayActivityWithTimerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D822D5C1D348E35001077C4 /* Build configuration list for PBXNativeTarget "EBTPayActivityWithTimerView" */;
+			buildPhases = (
+				7D822D2B1D348E35001077C4 /* Sources */,
+				7D822D2C1D348E35001077C4 /* Frameworks */,
+				7D822D2D1D348E35001077C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EBTPayActivityWithTimerView;
+			productName = EBTPayActivityWithTimerView;
+			productReference = 7D822D2F1D348E35001077C4 /* EBTPayActivityWithTimerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D822D471D348E35001077C4 /* EBTPayActivityWithTimerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D822D5F1D348E35001077C4 /* Build configuration list for PBXNativeTarget "EBTPayActivityWithTimerViewTests" */;
+			buildPhases = (
+				7D822D441D348E35001077C4 /* Sources */,
+				7D822D451D348E35001077C4 /* Frameworks */,
+				7D822D461D348E35001077C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D822D4A1D348E35001077C4 /* PBXTargetDependency */,
+			);
+			name = EBTPayActivityWithTimerViewTests;
+			productName = EBTPayActivityWithTimerViewTests;
+			productReference = 7D822D481D348E35001077C4 /* EBTPayActivityWithTimerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D822D521D348E35001077C4 /* EBTPayActivityWithTimerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D822D621D348E35001077C4 /* Build configuration list for PBXNativeTarget "EBTPayActivityWithTimerViewUITests" */;
+			buildPhases = (
+				7D822D4F1D348E35001077C4 /* Sources */,
+				7D822D501D348E35001077C4 /* Frameworks */,
+				7D822D511D348E35001077C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D822D551D348E35001077C4 /* PBXTargetDependency */,
+			);
+			name = EBTPayActivityWithTimerViewUITests;
+			productName = EBTPayActivityWithTimerViewUITests;
+			productReference = 7D822D531D348E35001077C4 /* EBTPayActivityWithTimerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D822D271D348E35001077C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = com.csst;
+				TargetAttributes = {
+					7D822D2E1D348E35001077C4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7D822D471D348E35001077C4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7D822D2E1D348E35001077C4;
+					};
+					7D822D521D348E35001077C4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7D822D2E1D348E35001077C4;
+					};
+				};
+			};
+			buildConfigurationList = 7D822D2A1D348E35001077C4 /* Build configuration list for PBXProject "EBTPayActivityWithTimerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D822D261D348E35001077C4;
+			productRefGroup = 7D822D301D348E35001077C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D822D2E1D348E35001077C4 /* EBTPayActivityWithTimerView */,
+				7D822D471D348E35001077C4 /* EBTPayActivityWithTimerViewTests */,
+				7D822D521D348E35001077C4 /* EBTPayActivityWithTimerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D822D2D1D348E35001077C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D822D421D348E35001077C4 /* LaunchScreen.storyboard in Resources */,
+				7D822D6A1D348F78001077C4 /* EBTPayActivityAlertView.xib in Resources */,
+				7D822D3F1D348E35001077C4 /* Assets.xcassets in Resources */,
+				7D822D3D1D348E35001077C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D822D461D348E35001077C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D822D511D348E35001077C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D822D2B1D348E35001077C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D822D6D1D349041001077C4 /* EBTPayActivityWithTimerView.m in Sources */,
+				7D822D3A1D348E35001077C4 /* ViewController.m in Sources */,
+				7D822D681D348F69001077C4 /* EBTPayActivityAlertView.m in Sources */,
+				7D822D371D348E35001077C4 /* AppDelegate.m in Sources */,
+				7D822D341D348E35001077C4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D822D441D348E35001077C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D822D4D1D348E35001077C4 /* EBTPayActivityWithTimerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D822D4F1D348E35001077C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D822D581D348E35001077C4 /* EBTPayActivityWithTimerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D822D4A1D348E35001077C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D822D2E1D348E35001077C4 /* EBTPayActivityWithTimerView */;
+			targetProxy = 7D822D491D348E35001077C4 /* PBXContainerItemProxy */;
+		};
+		7D822D551D348E35001077C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D822D2E1D348E35001077C4 /* EBTPayActivityWithTimerView */;
+			targetProxy = 7D822D541D348E35001077C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D822D3B1D348E35001077C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D822D3C1D348E35001077C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D822D401D348E35001077C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D822D411D348E35001077C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D822D5A1D348E35001077C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7D822D5B1D348E35001077C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D822D5D1D348E35001077C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EBTPayActivityWithTimerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.csst.www.EBTPayActivityWithTimerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7D822D5E1D348E35001077C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EBTPayActivityWithTimerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.csst.www.EBTPayActivityWithTimerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7D822D601D348E35001077C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EBTPayActivityWithTimerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.csst.www.EBTPayActivityWithTimerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EBTPayActivityWithTimerView.app/EBTPayActivityWithTimerView";
+			};
+			name = Debug;
+		};
+		7D822D611D348E35001077C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EBTPayActivityWithTimerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.csst.www.EBTPayActivityWithTimerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EBTPayActivityWithTimerView.app/EBTPayActivityWithTimerView";
+			};
+			name = Release;
+		};
+		7D822D631D348E35001077C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EBTPayActivityWithTimerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.csst.www.EBTPayActivityWithTimerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EBTPayActivityWithTimerView;
+			};
+			name = Debug;
+		};
+		7D822D641D348E35001077C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EBTPayActivityWithTimerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.csst.www.EBTPayActivityWithTimerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EBTPayActivityWithTimerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D822D2A1D348E35001077C4 /* Build configuration list for PBXProject "EBTPayActivityWithTimerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D822D5A1D348E35001077C4 /* Debug */,
+				7D822D5B1D348E35001077C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D822D5C1D348E35001077C4 /* Build configuration list for PBXNativeTarget "EBTPayActivityWithTimerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D822D5D1D348E35001077C4 /* Debug */,
+				7D822D5E1D348E35001077C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7D822D5F1D348E35001077C4 /* Build configuration list for PBXNativeTarget "EBTPayActivityWithTimerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D822D601D348E35001077C4 /* Debug */,
+				7D822D611D348E35001077C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7D822D621D348E35001077C4 /* Build configuration list for PBXNativeTarget "EBTPayActivityWithTimerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D822D631D348E35001077C4 /* Debug */,
+				7D822D641D348E35001077C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D822D271D348E35001077C4 /* Project object */;
+}

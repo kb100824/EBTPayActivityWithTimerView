@@ -520,6 +520,7 @@
 				7D822D5E1D348E35001077C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D822D5F1D348E35001077C4 /* Build configuration list for PBXNativeTarget "EBTPayActivityWithTimerViewTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +529,7 @@
 				7D822D611D348E35001077C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D822D621D348E35001077C4 /* Build configuration list for PBXNativeTarget "EBTPayActivityWithTimerViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +538,7 @@
 				7D822D641D348E35001077C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
